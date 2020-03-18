@@ -1,1 +1,2 @@
 New text file to commit to new git repository
+Ok, got the hang of this I think - making change to testTextFile (this) in my Kelbranch
