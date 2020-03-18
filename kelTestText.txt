@@ -4,7 +4,7 @@ Deleted previous 'Kel' branch using uppercase -D tag
 created mew 'Kel' branch with existing master branch and updated this 'textTextFile'
 
 
-
+Just renamed file to "kelTestText"
 
 
 
