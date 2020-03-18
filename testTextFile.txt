@@ -13,3 +13,4 @@ set upstream branch url with: git push --set-upstream origin kel
 This is the first branch created by kel and the last one commited by kel before comparing branches 1 and 2 to the master branch
 After a successful push, I will delete kel2 using lowercase -d tag, finally I will merge the kel branch and keep it there for later uppercase
 FINAL ADDITION BY KEL BEFORE MERGING ALL KEL BRANCHES FROM TODAYS WORK
+** Last step was to set up tracking of remote branch using command: "git push --set-upstream origin Kel"
