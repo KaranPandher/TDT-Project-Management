@@ -9,3 +9,8 @@ created branch using "-b tag to create and checkout at the same time
 
     Line 10 (AFTER merge) This is the new kel2 branch final change before comparing with pull request)
     Line 11 (before second merge, after conflict of removing text on line 10 was pushed)
+
+
+
+    Created line 15 in new branch titled: "kel3"
+    Will save, add, commit and push upstream to create a node on the branch, 
