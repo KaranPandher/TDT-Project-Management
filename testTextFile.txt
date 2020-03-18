@@ -6,3 +6,5 @@ created branch using "-b tag to create and checkout at the same time
   will make Kel3 after making this commit
   used this url to figure out setting the upstream branch: git push --set-upstream origin kel2
     https://devconnected.com/how-to-set-upstream-branch-on-git/
+
+    Line 10 (before merge) This is the kel2 branch currently
