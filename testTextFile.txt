@@ -1,1 +1,8 @@
 New text file to commit to new git repository
+Ok, got the hang of this I think - making change to testTextFile (this) in my Kelbranch
+Deleted previous 'Kel' branch using uppercase -D tag
+created mew 'Kel' branch with existing master branch and updated this 'textTextFile'
+created branch using "-b tag to create and checkout at the same time
+  will make Kel3 after making this commit
+  used this url to figure out setting the upstream branch: git push --set-upstream origin kel2
+    https://devconnected.com/how-to-set-upstream-branch-on-git/
