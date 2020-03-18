@@ -21,6 +21,7 @@ created branch using "-b tag to create and checkout at the same time
     Line 10 (AFTER merge) This is the new kel2 branch final change before comparing with pull request)
     Line 11 (before second merge, after conflict of removing text on line 10 was pushed)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -28,3 +29,7 @@ created branch using "-b tag to create and checkout at the same time
     Will save, add, commit and push upstream to create a node on the branch, 
 =======
 >>>>>>> Kel
+=======
+
+    Line 13 created in kel3 branch which I will now save, add, commit, and merge with master
+>>>>>>> kel3
