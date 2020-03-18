@@ -33,3 +33,5 @@ created branch using "-b tag to create and checkout at the same time
 
     Line 13 created in kel3 branch which I will now save, add, commit, and merge with master
 >>>>>>> kel3
+
+Updated with Aaron during HH session, 18 Mar
