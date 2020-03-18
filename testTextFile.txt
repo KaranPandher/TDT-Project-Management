@@ -8,4 +8,4 @@ created mew 'Kel' branch with existing master branch and updated this 'textTextF
 
 
 checkout kel (one) and made this change before merging both kel and kel1 in just a few moments
-more changes...........
+set upstream branch url with: git push --set-upstream origin kel
