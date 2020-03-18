@@ -1,0 +1,55 @@
+KelNotes on Git Branching and Merging  *NOTE* - wrap your text
+
+Init a new project creates a single branch called master.  The 'origin' is a variable that gets assigned the value of the URL where the repository resides on the web.  This needs to only be done once.
+
+Your new project now has a single 'default branch' titled "master".  Although it is the one created with your new repo, it can be thought of like just another branch once you start creating multiple branches, with one distinguishing feature being it is the MASTER branch into which all other branches get merged into.
+
+**NOTE**  When merging a branch with another, be SURE you are residing inside the one your merging into as the command:
+	"git merge <branchName>"
+will merge the 2nd branch titled <branchName> INTO the branch you currently reside.  It is also possible to merge two of your own branches together by simply doing the following: - for example: "kel1" and "kel2" 
+
+	git checkout -b kel1	
+	git merge kel2		
+	git branch -d kel2	
+
+  ** creates and moves into the new branch 'kel1'
+  ** merges kel2 with the current branch your in (right now, kel1)
+  ** since all changes merged into kel2, don't need kel1 any more so 'safe' delete
+
+git branch -D kel2 would FORCE delete (uppercase -D) even if there are uncommited but BEWARE!
+
+
+---- 37 minutes into vid titled  ----
+
+create pull request from github web
+- green lines represent line that would be added to the document should they be merged
+- red lines represent a line that would be deleted should the document be merged
+
+
+Merge  CONFLICT 
+ - Huge topic! To many to compare individulally, instead understand each situation uniquely for what it is. 
+ - Every Conflict must be attended too by viewing the conflict and picking individually the files to keep or delete
+
+Multiple branch mergin conflicts:
+ - HEAD is the incoming change, separated using:
+<<<<<<<<<<<< HEAD, and =============
+ - This is ONE option to resolve conflick
+
+CONTENTS OF ONLINE TUTORIAL
+ - What is git?
+ - Review of prior git commands
+ - Review of creating a remote repository on gitHub
+ - Review of connecting the remote gitHub repository to our local git
+----------
+ - What is a branch?
+ - git branches visuialized
+ - git branches in code
+ - Branch commands
+ - Merging 
+ - More core commands
+ - github ranches
+ - github pull requests
+ - merge conflicts
+
+** VERY GOOD LINK **
+https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67
