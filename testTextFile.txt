@@ -2,3 +2,5 @@ New text file to commit to new git repository
 Ok, got the hang of this I think - making change to testTextFile (this) in my Kelbranch
 Deleted previous 'Kel' branch using uppercase -D tag
 created mew 'Kel' branch with existing master branch and updated this 'textTextFile'
+created branch using "-b tag to create and checkout at the same time
+  will make Kel3 after making this commit
